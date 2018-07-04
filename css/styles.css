@@ -1,0 +1,164 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  margin:0px;
+  background: #f1f1f1;
+}
+.head{
+  width: 93.4%;
+  height: 25%;
+  position : fixed;
+}
+.logo{
+  float:left;
+}
+h1{
+  margin :0px;
+  color: white;
+}
+.topnav {
+  margin: auto;
+  font-size: 30px;
+  font : white;
+  text-align: center;
+  width: 110%;
+  background-color: #333;
+}
+.topnav ul {
+text-align: center;
+}
+
+.topnav ul li{
+  display: inline-block;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    /* margin-bottom: 20px; */
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.container-1 {
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top:200px;
+    justify-content: space-between;
+}
+
+.hero-text {
+  text-align: center;
+}
+.hero-image {
+  text-align: center;
+}
+
+.row-one {
+    display: flex;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.column-four {
+    flex: 50%;
+}
+.row-two {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+#social_icon_footer {
+  text-align: center;
+  padding: 14px 0;
+}
+#social_icon_footer .social:hover {
+  transform: scale(1.1);
+}
+
+#social_icon_footer .social {
+  transform: scale(0.8);
+  transition-duration: 0.5s;
+}
+#social_icon_footer a {
+  color: #333;
+}
+#social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+#social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+#social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+#social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column {
+    flex: 1;
+
+    margin: auto;
+    background: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.column-one {
+    order: 3;
+}
+.column-two {
+    order: 1;
+}
+.column-three {
+    order: 4;
+}
+
+
+.section {
+    position: relative;
+    margin: 60px 0;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+div {
+    display: block;
+}
